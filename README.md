@@ -41,22 +41,6 @@ Some rules are not applicable to test projects, so the Test.ruleset file have le
 >For **Distributed Library** add also the Lib.ruleset.
 This file includes documenting rules that are specially important when you distribute your library to others.
 
-On **ItemGroup** section
-
-```XML
-<ItemGroup>    
-    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="CodeCracker.CSharp" Version="1.1.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-```
-
 4. Restore and build the solution:
 ```
 dotnet restore
