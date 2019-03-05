@@ -15,9 +15,9 @@ These preset configurations contains **428** validation rules of:
 1. Install the packages below to the projects do you wish to analyze **(usually all)** on your solution:
 
 ```C#
-dotnet add package StyleCop.Analyzers --version 1.0.2
-dotnet add package Microsoft.CodeAnalysis.FxCopAnalyzers --version 2.6.2
-dotnet add package codecracker.CSharp --version 1.1.0
+dotnet add package StyleCop.Analyzers
+dotnet add package Microsoft.CodeAnalysis.FxCopAnalyzers
+dotnet add package codecracker.CSharp
 ```
 
 2. On the root solution folder create a new folder named `Analyzers` and put these `.ruleset` files inside there:
