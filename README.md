@@ -32,7 +32,6 @@ On **PropertyGroup** section
 ```XML
 <PropertyGroup>    
     <CodeAnalysisRuleSet>..\Analyzers\Default.ruleset</CodeAnalysisRuleSet>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 </PropertyGroup>
 ```
 >For **Test Projects** use Test.ruleset file instead of Default.ruleset file.
