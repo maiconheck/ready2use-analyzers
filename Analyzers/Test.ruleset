@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RuleSet Name="Custom Rulset" Description="Custom Rulset" ToolsVersion="14.0">
-    <Rules AnalyzerId="AsyncUsageAnalyzers" RuleNamespace="AsyncUsageAnalyzers">
-        <Rule Id="UseConfigureAwait" Action="Warning" />
-    </Rules>
-    <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+	<Rules AnalyzerId="AsyncUsageAnalyzers" RuleNamespace="AsyncUsageAnalyzers">
+		<Rule Id="UseConfigureAwait" Action="Warning" />
+	</Rules>
+	<Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
 		<Rule Id="CA1000" Action="Error" />
 		<Rule Id="CA1001" Action="Error" />
 		<Rule Id="CA1002" Action="Error" />
@@ -33,7 +33,7 @@
 		<Rule Id="CA1032" Action="Error" />
 		<Rule Id="CA1033" Action="Error" />
 		<Rule Id="CA1034" Action="Error" />
-		<Rule Id="CA1036" Action="Error" />		
+		<Rule Id="CA1036" Action="Error" />
 		<Rule Id="CA1041" Action="Error" />
 		<Rule Id="CA1043" Action="Error" />
 		<Rule Id="CA1044" Action="Error" />
@@ -86,7 +86,7 @@
 		<Rule Id="CA1600" Action="Error" />
 		<Rule Id="CA1601" Action="Error" />
 		<Rule Id="CA1700" Action="Error" />
-		<Rule Id="CA1704" Action="Error" />		
+		<Rule Id="CA1704" Action="Error" />
 		<Rule Id="CA1708" Action="Error" />
 		<Rule Id="CA1709" Action="Error" />
 		<Rule Id="CA1710" Action="Error" />
@@ -200,9 +200,9 @@
 		<Rule Id="CA5351" Action="Error" />
 		<Rule Id="CA1040" Action="None" />
 		<Rule Id="CA1707" Action="None" />
-    </Rules>
-    <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
-        <Rule Id="SA0001" Action="Error" />
+	</Rules>
+	<Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+		<Rule Id="SA0001" Action="Error" />
 		<Rule Id="SA0002" Action="Error" />
 		<Rule Id="SA1000" Action="Error" />
 		<Rule Id="SA1001" Action="Error" />
@@ -233,7 +233,7 @@
 		<Rule Id="SA1026" Action="Error" />
 		<Rule Id="SA1027" Action="Error" />
 		<Rule Id="SA1028" Action="Error" />
-		<Rule Id="SA1100" Action="Error" />		
+		<Rule Id="SA1100" Action="Error" />
 		<Rule Id="SA1102" Action="Error" />
 		<Rule Id="SA1103" Action="Error" />
 		<Rule Id="SA1104" Action="Error" />
@@ -270,7 +270,7 @@
 		<Rule Id="SA1135" Action="Error" />
 		<Rule Id="SA1136" Action="Error" />
 		<Rule Id="SA1137" Action="Error" />
-		<Rule Id="SA1139" Action="Error" />		
+		<Rule Id="SA1139" Action="Error" />
 		<Rule Id="SA1201" Action="Error" />
 		<Rule Id="SA1202" Action="Error" />
 		<Rule Id="SA1203" Action="Error" />
@@ -296,7 +296,7 @@
 		<Rule Id="SA1305" Action="Error" />
 		<Rule Id="SA1306" Action="Error" />
 		<Rule Id="SA1307" Action="Error" />
-		<Rule Id="SA1308" Action="Error" />		
+		<Rule Id="SA1308" Action="Error" />
 		<Rule Id="SA1310" Action="Error" />
 		<Rule Id="SA1311" Action="Error" />
 		<Rule Id="SA1312" Action="Error" />
@@ -318,7 +318,7 @@
 		<Rule Id="SA1413" Action="Error" />
 		<Rule Id="SA1500" Action="Error" />
 		<Rule Id="SA1501" Action="Error" />
-		<Rule Id="SA1502" Action="Error" />		
+		<Rule Id="SA1502" Action="Error" />
 		<Rule Id="SA1504" Action="Error" />
 		<Rule Id="SA1505" Action="Error" />
 		<Rule Id="SA1506" Action="Error" />
@@ -368,7 +368,7 @@
 		<Rule Id="SA1629" Action="Error" />
 		<Rule Id="SA1630" Action="Error" />
 		<Rule Id="SA1631" Action="Error" />
-		<Rule Id="SA1632" Action="Error" />		
+		<Rule Id="SA1632" Action="Error" />
 		<Rule Id="SA1634" Action="Error" />
 		<Rule Id="SA1635" Action="Error" />
 		<Rule Id="SA1636" Action="Error" />
@@ -392,8 +392,8 @@
 		<Rule Id="SA1200" Action="None" />
 		<Rule Id="SA1633" Action="None" />
 		<Rule Id="SA1503" Action="None" />
-		<Rule Id="SA1309" Action="None" />	
-    </Rules>
+		<Rule Id="SA1309" Action="None" />
+	</Rules>
 	<Rules AnalyzerId="CodeCracker.CSharp" RuleNamespace="CodeCracker.CSharp">
 		<Rule Id="CC0003" Action="Error" />
 		<Rule Id="CC0004" Action="Error" />

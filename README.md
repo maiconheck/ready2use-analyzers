@@ -33,7 +33,7 @@ On **PropertyGroup** section
 <PropertyGroup>    
     <CodeAnalysisRuleSet>..\Analyzers\Default.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-  </PropertyGroup>
+</PropertyGroup>
 ```
 >For **Test Projects** use Test.ruleset file instead of Default.ruleset file.
 Some rules are not applicable to test projects, so the Test.ruleset file have less active rules, like `MakeLocalVariableConstWhenItIsPossibleAnalyzer` and `AlwaysUseVarAnalyzer`.
