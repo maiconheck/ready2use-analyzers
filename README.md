@@ -1,5 +1,5 @@
 # Ready2Use Analyzers
-A well configured and documented [rulesets files](https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2017#rule-set-format) from a curated list of Roslyn diagnostic analyzers.
+A well configured and opinionated [rulesets files](https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2017#rule-set-format) from a curated list of Roslyn diagnostic analyzers.
 
 ## The included validators
 
@@ -20,7 +20,7 @@ dotnet add package Microsoft.CodeAnalysis.FxCopAnalyzers --version 2.6.2
 dotnet add package codecracker.CSharp --version 1.1.0
 ```
 
-2. On the root solution folder create a new folder named `Analyzers` and put these two `.ruleset` files inside there:
+2. On the root solution folder create a new folder named `Analyzers` and put these `.ruleset` files inside there:
 
 * [Default.ruleset](https://raw.githubusercontent.com/maiconheck/ready2use-analyzers/master/Analyzers/Default.ruleset)
 * [Test.ruleset](https://raw.githubusercontent.com/maiconheck/ready2use-analyzers/master/Analyzers/Test.ruleset)
@@ -63,10 +63,10 @@ dotnet restore
 dotnet build
 ```
 
-5. Correct the warnings and have a much better code! 😃
+5. Fix the warnings and have a much better code! 😃
 Do not worry if you receive too many warnings. There are ** 428 ** validations! Correct them step by step. I suggest organizing them into groups and fixing one group at a time.
 
->👌 Feel free to disable (or add more) rules that do not apply to your context or project.
+>👌 Feel free to disable rules that don't apply to your context or project.
 
 ## 💡 Important tips
 * I suggest that after you fix the warnings, you change the criticality level to `Error` (e.g. <Rule Id="CC0018 "Action=**"Error"** />).
