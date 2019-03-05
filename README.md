@@ -72,3 +72,7 @@ Do not worry if you receive too many warnings. There are ** 428 ** validations! 
 * I suggest that after you fix the warnings, you change the criticality level to `Error` (e.g. <Rule Id="CC0018 "Action=**"Error"** />).
 That way, you make sure that the rules are respected, becouse otherwise the projects will not compile!
 Keep them at Warning level (eg, <Rule Id="CC0018 "Action=**"Warning"** />) besides not guarantee this, usually makes Warnings increase, and will be harder to fix when you have several of them.
+
+* Consider exceptions to rules. There are specific cases where some rules will not apply. In that case, do not disable them, instead [suppress the message](https://docs.microsoft.com/pt-br/visualstudio/code-quality/in-source-suppression-overview?view=vs-2017#global-suppression-file)
+
+Example using a [global suppression file (a.k.a. `GlobalSuppressions.cs`)](https://github.com/maiconheck/shared-kernel/blob/master/src/SharedKernel/GlobalSuppressions.cs)
