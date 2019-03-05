@@ -16,9 +16,7 @@ These preset configurations contains **428** validation rules of:
 
 ```C#
 dotnet add package StyleCop.Analyzers --version 1.0.2
-
 dotnet add package Microsoft.CodeAnalysis.FxCopAnalyzers --version 2.6.2
-
 dotnet add package codecracker.CSharp --version 1.1.0
 ```
 
