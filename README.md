@@ -2,7 +2,7 @@
 A well configured and documented [rulesets files](https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2017#rule-set-format) from a curated list of Roslyn diagnostic analyzers.
 
 ## The included validators
----
+
 These preset configurations contains **428** validation rules of:
 
 * [StyleCop Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
@@ -12,7 +12,6 @@ These preset configurations contains **428** validation rules of:
 * [Code Cracker Analyzers](https://github.com/code-cracker/code-cracker)
 
 ## Getting Started
----
 1. Install the packages below to the projects do you wish to analyze **(usually all)** on your solution:
 
 ```C#
@@ -71,7 +70,6 @@ Do not worry if you receive too many warnings. There are ** 428 ** validations! 
 
 >👌 Feel free to disable (or add more) rules that do not apply to your context or project.
 
----
 ## 💡 Important tips
 * I suggest that after you fix the warnings, you change the criticality level to `Error` (e.g. <Rule Id="CC0018 "Action=**"Error"** />).
 That way, you make sure that the rules are respected, becouse otherwise the projects will not compile!
