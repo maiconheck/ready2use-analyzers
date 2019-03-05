@@ -22,9 +22,9 @@ dotnet add package codecracker.CSharp --version 1.1.0
 
 2. On the root solution folder create a new folder named `Analyzers` and put these two `.ruleset` files inside there:
 
-* Default.ruleset
-* Test.ruleset
-* Lib.ruleset
+* [Default.ruleset](https://raw.githubusercontent.com/maiconheck/ready2use-analyzers/master/Analyzers/Default.ruleset)
+* [Test.ruleset](https://raw.githubusercontent.com/maiconheck/ready2use-analyzers/master/Analyzers/Test.ruleset)
+* [Lib.ruleset](https://raw.githubusercontent.com/maiconheck/ready2use-analyzers/master/Analyzers/Lib.ruleset)
 
 3. For each project that do you have installed the packages, edit the `.csproj` file and add the lines below:
 
