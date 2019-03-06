@@ -1,5 +1,7 @@
 # Ready2Use Analyzers
-A well configured and opinionated [rulesets files](https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2017#rule-set-format) from a curated list of Roslyn diagnostic analyzers.
+There are excellent code analyzers available for .NET through the Rosilyn platform. 😃 But finding them, and selecting their rules, is not a very fun task! 😕
+
+A well configured and opinionated [rulesets files](https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2017#rule-set-format) from a curated selection of Roslyn diagnostic analyzers.
 
 ## The included validators
 
