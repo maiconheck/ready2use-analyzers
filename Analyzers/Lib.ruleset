@@ -464,12 +464,10 @@
 		<Rule Id="RCS1005" Action="Warning" />
 		<Rule Id="RCS1008" Action="Warning" />
 		<Rule Id="RCS1009" Action="Warning" />
-		<Rule Id="RCS1010" Action="Warning" />
-		<Rule Id="RCS1012" Action="Warning" />
+		<Rule Id="RCS1010" Action="Warning" />		
 		<Rule Id="RCS1013" Action="Warning" />
 		<Rule Id="RCS1014" Action="Warning" />
-		<Rule Id="RCS1015" Action="Warning" />
-		<Rule Id="RCS1016" Action="Warning" />
+		<Rule Id="RCS1015" Action="Warning" />		
 		<Rule Id="RCS1018" Action="Warning" />
 		<Rule Id="RCS1019" Action="Warning" />
 		<Rule Id="RCS1020" Action="Warning" />
@@ -588,8 +586,7 @@
 		<Rule Id="RCS1171" Action="Warning" />
 		<Rule Id="RCS1173" Action="Warning" />
 		<Rule Id="RCS1174" Action="Warning" />
-		<Rule Id="RCS1175" Action="Warning" />
-		<Rule Id="RCS1176" Action="Warning" />
+		<Rule Id="RCS1175" Action="Warning" />		
 		<Rule Id="RCS1177" Action="Warning" />
 		<Rule Id="RCS1178" Action="Warning" />
 		<Rule Id="RCS1179" Action="Warning" />
@@ -647,5 +644,8 @@
 		<Rule Id="RCS1100" Action="None" />
 		<Rule Id="RCS1126" Action="None" />
 		<Rule Id="RCS1223" Action="None" />
+		<Rule Id="RCS1176" Action="None" />
+		<Rule Id="RCS1012" Action="None" />
+		<Rule Id="RCS1016" Action="None" />
 	</Rules>
 </RuleSet>
