@@ -3,7 +3,7 @@ A well configured and opinionated [rulesets files](https://docs.microsoft.com/en
 
 ## The included validators
 
-These preset configurations contains **428** validation rules of:
+These preset configurations contains **637** validation rules of:
 
 * [StyleCop Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
 
@@ -11,13 +11,16 @@ These preset configurations contains **428** validation rules of:
 
 * [Code Cracker Analyzers](https://github.com/code-cracker/code-cracker)
 
+* [Roslynator Analyzers](https://github.com/JosefPihrt/Roslynator)
+
 ## Getting Started
 1. Install the packages below to the projects do you wish to analyze **(usually all)** on your solution:
 
-```C#
+```
 dotnet add package StyleCop.Analyzers
 dotnet add package Microsoft.CodeAnalysis.FxCopAnalyzers
 dotnet add package codecracker.CSharp
+dotnet add package Roslynator.Analyzers
 ```
 
 2. On the root solution folder create a new folder named `Analyzers` and put these `.ruleset` files inside there:
@@ -37,17 +40,17 @@ On **PropertyGroup** section
 >For **Test Projects** use Test.ruleset file instead of Default.ruleset file.
 Some rules are not applicable to test projects, so the Test.ruleset file have less active rules, like `MakeLocalVariableConstWhenItIsPossibleAnalyzer` and `AlwaysUseVarAnalyzer`.
 
->For **Distributed Library** add also the Lib.ruleset.
+>For **Distributed Library** use Lib.ruleset file instead of Default.ruleset file.
 This file includes documenting rules that are specially important when you distribute your library to others.
 
-4. Restore and build the solution:
+4. Clean and build the solution:
 ```
-dotnet restore
+dotnet clean
 dotnet build
 ```
 
 5. Fix the warnings and have a much better code! 😃
-Do not worry if you receive too many warnings. There are ** 428 ** validations! Correct them step by step. I suggest organizing them into groups and fixing one group at a time.
+Do not worry if you receive too many warnings. There are **637** validations! Correct them step by step. I suggest organizing them into groups and fixing one group at a time.
 
 >👌 Feel free to disable rules that don't apply to your context or project.
 
