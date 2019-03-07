@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="Test Ruleset" Description="General Rulesets in ..\Templates folder with some rules ignored. To use on Test projects." ToolsVersion="14.0">
+<RuleSet Name="Test Ruleset" Description="Test Rulesets in ..\Templates folder with some rules ignored. To use on Test projects." ToolsVersion="14.0">
 	<Include Path=".\Templates\General.ruleset" Action="Default" />
 	<Include Path=".\Templates\EnabledOnTest.ruleset" Action="Default" />
 </RuleSet>
