@@ -22,7 +22,7 @@ dotnet add package CodeCracker.CSharp
 dotnet add package Roslynator.Analyzers
 ```
 
-or add the Package References to the *.csproj files
+OR add the Package References to the *.csproj files
 
 ```
   <ItemGroup>
