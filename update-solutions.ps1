@@ -8,8 +8,8 @@
 
 $paths = 
 @(
-    "C:\repos\keepmoney\src\backend\",
-    "C:\repos\krafted\src"
+    "D:\repos\keepmoney\src\backend\",
+    "D:\repos\krafted\src"
 )
 
 foreach ($path in $paths)
