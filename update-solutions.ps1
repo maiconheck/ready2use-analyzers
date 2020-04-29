@@ -1,20 +1,34 @@
 <#
-    This script is used to copy the analyzers to the projects where they are being used.
+    This script is used to update the Analyzers rulesets and EditorConfig configuration in the projects where they are being used.
 
-    1. Update the rules in the * .ruleset files
-    2. Add the solution paths where the analyzers are to be used on the $path array below
-    3. Run the script
+    1. Update the rules in the *.ruleset files and/or in the .editorconfig file;
+    2. Add the solution paths where they are to be used on the array below ($analyzersPaths and $editorconfigPaths);
+    3. Run the script;
 #>
 
-$paths = 
-@(
-    "D:\repos\keepmoney\src\backend\",
+$analyzersPaths = @(
+    "D:\repos\keepmoney\src\backend",
     "D:\repos\krafted\src"
 )
 
-foreach ($path in $paths)
-{        
+$editorconfigPaths = @(
+    "D:\repos\keepmoney",
+    "D:\repos\krafted"
+)
+
+Write-Host "Analyzers rulesets was updated in the following paths:"  -ForegroundColor DarkGreen
+foreach ($path in $analyzersPaths)
+{
     Copy-Item -Path .\Analyzers -Destination $path -Recurse -Force
+    Write-Output $path
 }
 
-Write-Output "Analyzers updated successfully!"
+Write-Host `n"EditorConfig file was updated in the following paths:" -ForegroundColor DarkGreen
+foreach ($path in $editorconfigPaths)
+{
+    Copy-Item -Path .\.editorconfig -Destination $path -Recurse -Force
+    Write-Output $path
+}
+
+Write-Output `n
+
