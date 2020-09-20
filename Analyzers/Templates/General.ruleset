@@ -103,7 +103,6 @@
 		<Rule Id="CA1801" Action="Warning" />
 		<Rule Id="CA1802" Action="Warning" />
 		<Rule Id="CA1804" Action="Warning" />
-		<Rule Id="CA1806" Action="Warning" />
 		<Rule Id="CA1810" Action="Warning" />
 		<Rule Id="CA1811" Action="Warning" />
 		<Rule Id="CA1812" Action="Warning" />
@@ -116,7 +115,6 @@
 		<Rule Id="CA1821" Action="Warning" />
 		<Rule Id="CA1822" Action="Warning" />
 		<Rule Id="CA1823" Action="Warning" />
-		<Rule Id="CA1824" Action="Warning" />
 		<Rule Id="CA1900" Action="Warning" />
 		<Rule Id="CA1901" Action="Warning" />
 		<Rule Id="CA2001" Action="Warning" />
@@ -198,7 +196,6 @@
 		<Rule Id="CA1008" Action="None" /> <!-- Add a member to CategoryGroup that has a value of zero with a suggested name of -->
 	</Rules>
 	<Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
-		<Rule Id="SA0001" Action="Warning" />
 		<Rule Id="SA0002" Action="Warning" />
 		<Rule Id="SA1000" Action="Warning" />
 		<Rule Id="SA1001" Action="Warning" />
@@ -255,7 +252,6 @@
 		<Rule Id="SA1124" Action="Warning" />
 		<Rule Id="SA1125" Action="Warning" />
 		<Rule Id="SA1126" Action="Warning" />
-		<Rule Id="SA1127" Action="Warning" />
 		<Rule Id="SA1128" Action="Warning" />
 		<Rule Id="SA1129" Action="Warning" />
 		<Rule Id="SA1130" Action="Warning" />
@@ -289,7 +285,6 @@
 		<Rule Id="SA1302" Action="Warning" />
 		<Rule Id="SA1303" Action="Warning" />
 		<Rule Id="SA1304" Action="Warning" />
-		<Rule Id="SA1305" Action="Warning" />
 		<Rule Id="SA1306" Action="Warning" />
 		<Rule Id="SA1307" Action="Warning" />
 		<Rule Id="SA1308" Action="Warning" />
@@ -374,6 +369,7 @@
 		<Rule Id="SA1609" Action="Warning" />
 		<Rule Id="SA1610" Action="Warning" />
 		<Rule Id="SA1612" Action="Warning" />
+		<Rule Id="SA1127" Action="None" /> <!-- Generic type constraints must be on own line -->
 		<Rule Id="SA1101" Action="None" /> <!-- Prefix local calls with this -->
 		<Rule Id="SA1200" Action="None" /> <!-- Using directives must be placed correctly -->
 		<Rule Id="SA1633" Action="None" /> <!-- File must have header -->
@@ -406,7 +402,6 @@
 		<Rule Id="CC0018" Action="Warning" />
 		<Rule Id="CC0019" Action="Warning" />
 		<Rule Id="CC0020" Action="Warning" />
-		<Rule Id="CC0037" Action="Warning" />
 		<Rule Id="CC0048" Action="Warning" />
 		<Rule Id="CC0002" Action="Warning" />
 		<Rule Id="CC0007" Action="Warning" />
@@ -439,21 +434,18 @@
 		<Rule Id="RCS1210" Action="Warning" />
 		<Rule Id="RCS1215" Action="Warning" />
 		<Rule Id="RCS1006" Action="Warning" />
-		<Rule Id="RCS1017" Action="Warning" />
 		<Rule Id="RCS1021" Action="Warning" />
 		<Rule Id="RCS1023" Action="Warning" />
 		<Rule Id="RCS1024" Action="Warning" />
 		<Rule Id="RCS1025" Action="Warning" />
 		<Rule Id="RCS1026" Action="Warning" />
 		<Rule Id="RCS1001" Action="Warning" />
-		<Rule Id="RCS1002" Action="Warning" />
 		<Rule Id="RCS1003" Action="Warning" />
 		<Rule Id="RCS1004" Action="Warning" />
 		<Rule Id="RCS1005" Action="Warning" />
 		<Rule Id="RCS1013" Action="Warning" />
 		<Rule Id="RCS1014" Action="Warning" />
 		<Rule Id="RCS1015" Action="Warning" />
-		<Rule Id="RCS1016" Action="Warning" />
 		<Rule Id="RCS1018" Action="Warning" />
 		<Rule Id="RCS1020" Action="Warning" />
 		<Rule Id="RCS1027" Action="Warning" />
@@ -471,12 +463,11 @@
 		<Rule Id="RCS1041" Action="Warning" />
 		<Rule Id="RCS1042" Action="Warning" />
 		<Rule Id="RCS1043" Action="Warning" /> <!-- Remove 'partial' modifier from type with a single part -->
+		<Rule Id="RCS1016" Action="Info" />    <!-- Use expression-bodied member -->
 		<Rule Id="RCS1045" Action="Warning" />
-		<Rule Id="RCS1046" Action="Warning" />
 		<Rule Id="RCS1047" Action="Warning" />
 		<Rule Id="RCS1048" Action="Warning" />
 		<Rule Id="RCS1049" Action="Warning" />
-		<Rule Id="RCS1051" Action="Warning" />
 		<Rule Id="RCS1052" Action="Warning" />
 		<Rule Id="RCS1055" Action="Warning" />
 		<Rule Id="RCS1057" Action="Warning" />
@@ -490,7 +481,6 @@
 		<Rule Id="RCS1066" Action="Warning" />
 		<Rule Id="RCS1067" Action="Warning" />
 		<Rule Id="RCS1068" Action="Warning" />
-		<Rule Id="RCS1069" Action="Warning" />
 		<Rule Id="RCS1070" Action="Warning" />
 		<Rule Id="RCS1071" Action="Warning" />
 		<Rule Id="RCS1072" Action="Warning" />
@@ -502,7 +492,6 @@
 		<Rule Id="RCS1085" Action="Warning" />
 		<Rule Id="RCS1088" Action="Warning" />
 		<Rule Id="RCS1089" Action="Warning" />
-		<Rule Id="RCS1090" Action="Warning" />
 		<Rule Id="RCS1091" Action="Warning" />
 		<Rule Id="RCS1092" Action="Warning" />
 		<Rule Id="RCS1093" Action="Warning" />
@@ -519,7 +508,6 @@
 		<Rule Id="RCS1107" Action="Warning" />
 		<Rule Id="RCS1108" Action="Warning" />
 		<Rule Id="RCS1110" Action="Warning" />
-		<Rule Id="RCS1111" Action="Warning" />
 		<Rule Id="RCS1112" Action="Warning" />
 		<Rule Id="RCS1113" Action="Warning" />
 		<Rule Id="RCS1114" Action="Warning" />
@@ -559,13 +547,11 @@
 		<Rule Id="RCS1170" Action="Warning" />
 		<Rule Id="RCS1171" Action="Warning" />
 		<Rule Id="RCS1173" Action="Warning" />
-		<Rule Id="RCS1174" Action="Warning" />
 		<Rule Id="RCS1175" Action="Warning" />
 		<Rule Id="RCS1177" Action="Warning" />
 		<Rule Id="RCS1178" Action="Warning" />
 		<Rule Id="RCS1179" Action="Warning" />
 		<Rule Id="RCS1180" Action="Warning" />
-		<Rule Id="RCS1181" Action="Warning" /> <!-- Replace comment with documentation comment -->
 		<Rule Id="RCS1182" Action="Warning" />
 		<Rule Id="RCS1184" Action="Warning" />
 		<Rule Id="RCS1185" Action="Warning" />
@@ -577,7 +563,6 @@
 		<Rule Id="RCS1191" Action="Warning" />
 		<Rule Id="RCS1195" Action="Warning" />
 		<Rule Id="RCS1196" Action="Warning" />
-		<Rule Id="RCS1197" Action="Warning" />
 		<Rule Id="RCS1199" Action="Warning" />
 		<Rule Id="RCS1200" Action="Warning" />
 		<Rule Id="RCS1201" Action="Warning" />
@@ -608,8 +593,14 @@
 		<Rule Id="RCS1232" Action="Warning" />
 		<Rule Id="RCS1233" Action="Warning" />
 		<Rule Id="RCS1234" Action="Warning" />
-		<Rule Id="RCS1016" Action="Warning" />
 	    <Rule Id="RCS1079" Action="Warning" />
+		<Rule Id="RCS1197" Action="None" /> <!-- Optimize StringBuilder.Append/AppendLine call. -->
+		<Rule Id="RCS1002" Action="None" /> <!-- Remove braces -->
+		<Rule Id="RCS1051" Action="None" /> <!-- Parenthesize condition of conditional expression -->
+		<Rule Id="RCS1174" Action="None" /> <!-- Remove redundant async/await -->
+		<Rule Id="RCS1069" Action="None" /> <!-- Remove unnecessary case label -->
+		<Rule Id="RCS1017" Action="None" /> <!-- Avoid multiline expression body -->
+		<Rule Id="RCS1111" Action="None" /> <!-- Add braces to switch section with multiple statements -->
 		<Rule Id="RCS1086" Action="None" /> <!-- Use linefeed as newline -->
 		<Rule Id="RCS1007" Action="None" /> <!-- Add braces -->
 		<Rule Id="RCS1100" Action="None" /> <!-- Format documentation summary on a single line -->
