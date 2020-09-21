@@ -48,7 +48,9 @@ OR add the Package References to the *.csproj files
 	</ItemGroup>
 ```
 
-### 2. Clone this repo and copy the `Analyzers` folder to your root solution folder.
+### 2. Clone this repo and
+- Copy the `Analyzers` folder to your `solution folder`.
+- Copy the `.editorconfig` file to your `repo folder`.
 
 ```
 git clone https://github.com/maiconheck/ready2use-analyzers.git
